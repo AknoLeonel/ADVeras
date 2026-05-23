@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-adv-black: #0a0a0a;
+  --color-adv-dark: #171717;
+  --color-adv-gold: #D4AF37;
+  --color-adv-gold-light: #F3E5AB;
+  --color-adv-gold-dark: #AA8C2C;
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  background-color: var(--color-adv-black);
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
